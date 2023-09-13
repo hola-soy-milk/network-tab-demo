@@ -1,6 +1,8 @@
 // Create a large JavaScript file (for demonstration purposes)
 const largeArray = new Array(1000000).fill("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 
+fetch('https://google.com');
+
 // Simulate a long-running operation
 function simulateLoad() {
     console.log("Start loading large.js");
